@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MailCoreService</id>
+    <version>1.2.0</version>
+    <title>MailCoreService</title>
+    <authors>Jack Borelius</authors>
+    <owners>Jack Borelius</owners>
+    <license type="file">LICENSE.txt</license>
+    <icon>images/logo.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple (.NET Core) Mail Service for TwinCAT HMI</description>
+	<copyright>Copyright 2023</copyright>
+    <tags>TwinCAT HMI Server</tags>
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+        <!-- Package dependencies -->
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <!--
+    target := win-x64, win-x86, etc.
+    -->
+    <file src="LICENSE.txt" target="" />
+    <file src="bin\Debug\FluentEmail.Core.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\FluentEmail.Razor.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\FluentEmail.Smtp.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.AspNetCore.Razor.Language.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.CodeAnalysis.CSharp.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.CodeAnalysis.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.CodeAnalysis.Razor.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.Extensions.Caching.Memory.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.Extensions.DependencyInjection.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.Extensions.DependencyModel.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.Extensions.Options.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\Microsoft.Extensions.Primitives.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\RazorLight.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\System.Text.Json.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\**\MailCoreService.dll" target="runtimes\any\native\"/>
+    <file src="bin\Debug\**\MailCoreService.*.json" target="runtimes\any\native\"/>
+    <file src="images\logo.png" target="images\" />
+  </files>
+</package>

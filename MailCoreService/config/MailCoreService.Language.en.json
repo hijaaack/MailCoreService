@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "Language.Schema.json",
+  "locale": "en",
+  "localizedText": {
+    "MESSAGE_INIT": "Init of the server extension.",
+    "MESSAGE_SHUTDOWN": "Server extension shutdown.",
+    "NEW_CONFIG": "New configuration has been stored.",
+    "ERROR_REQUEST": "Request error message: {0}",
+    "ERROR_CALL_COMMAND": "Error during call command: {0}",
+
+    "ERROR_MAIL": "Send mail failed with errors: {0}"
+  }
+}

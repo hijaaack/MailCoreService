@@ -1,0 +1,31 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "SMTPServer": {
+      "type": "string",
+      "default": "localhost",
+      "description": "A string that contains the name or IP address of the host computer used for SMTP transactions."
+    },
+    "Port": {
+      "type": "integer",
+      "default": 25,
+      "description": "The port number on the SMTP host. The default value is 25."
+    },
+    "EnableSSL": {
+      "type": "boolean",
+      "default": true,
+      "description": "Specify wheter the SmtpClient uses Secure Sockets Layer (SSL) to encrypt the connection."
+    },
+    "Username": {
+      "type": "string",
+      "default": "",
+      "description": "Credential username used for connecting to the SMTP client."
+    },
+    "Password": {
+      "type": "string",
+      "default": "",
+      "description": "Credential password used for connecting to the SMTP client."
+    }
+  }
+}

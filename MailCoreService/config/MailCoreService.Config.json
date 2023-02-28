@@ -1,0 +1,42 @@
+﻿{
+  "$schema": "ExtensionSettings.Schema.json",
+  "guid": "99358c1f-123e-4584-ab32-e20ee89a1f8e",
+  "version": "1.0.0.0",
+  "configVersion": "1.0.0.8",
+  "policies": [
+    "StrictPropertyValidation"
+  ],
+  "symbols": {
+    "SendMail": {
+      "description": "Send an email.",
+      "readValue": {
+        "function": true
+      },
+      "writeValue": {
+        "type": "object",
+        "properties": {
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "subject": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "htmlBody": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "from",
+          "to"
+        ]
+      },
+      "hidden": false
+    }
+  }
+}
