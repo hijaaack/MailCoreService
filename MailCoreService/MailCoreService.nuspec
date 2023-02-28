@@ -7,6 +7,7 @@
     <authors>Jack Borelius</authors>
     <owners>Jack Borelius</owners>
     <license type="file">LICENSE.txt</license>
+	<projectUrl>https://github.com/hijaaack/MailCoreService</projectUrl>
     <icon>images/logo.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Simple (.NET Core) Mail Service for TwinCAT HMI</description>
